@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiky War</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Star Wars API Explorer</h1>
+    </header>
+    <main>
+        <section class="search">
+            <input type="text" id="query" placeholder="Busca un personaje, planeta, nave...">
+            <button id="search-btn">Buscar</button>
+        </section>
+        <section class="categories">
+            <div class="category" id="characters">
+                <h2>Personajes</h2>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="category" id="planets">
+                <h2>Planetas</h2>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="category" id="starships">
+                <h2>Naves</h2>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="category" id="species">
+                <h2>Especies</h2>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="category" id="vehicles">
+                <h2>Vehículos</h2>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="category" id="films">
+                <h2>Películas</h2>
+                <ul class="items-list"></ul>
+            </div>
+        </section>
+        <section id="details" class="details">
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
